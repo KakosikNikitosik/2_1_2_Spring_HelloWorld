@@ -19,7 +19,7 @@ public class App {
         Cat beanCatTwo = (Cat) applicationContext.getBean("cat");
         System.out.println(beanCatTwo.getKind());
 
-        System.out.println(bean.equals(beanTwo));
-        System.out.println(beanCat.equals(beanCatTwo));
+        System.out.println(bean==beanTwo);
+        System.out.println(beanCat==beanCatTwo);
     }
 }
